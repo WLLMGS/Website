@@ -4,10 +4,10 @@ body, html{
 
 .bg
 {
-    /*background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
-*/
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
 
-    background-image : url("img/code.JPG"); 
+
+   /* background-image : url("img/code.JPG"); */ 
     background-attachment: fixed;
     
   /* Full height */
