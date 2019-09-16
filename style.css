@@ -4,8 +4,7 @@ body, html{
 
 .bg
 {
-    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
-
+    background-image: url("https://wllmgs.github.io/Website/img/code.JPG");
 
    /* background-image : url("img/code.JPG"); */ 
     background-attachment: fixed;
@@ -17,8 +16,6 @@ body, html{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
-    
 }
 
 .top-buffer
