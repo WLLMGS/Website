@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portolio - Willem Goos</title>
+    <link href='https://fonts.googleapis.com/css?family=Archivo Black' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+
+    <div class="header">
+        <h1>Willem Goos - Game Programmer</h1>
+    </div>
+    <div class="project-header">Projects</div>
+    <div class="row">
+        <div class="column">
+            <div class="content">
+                <div class="content-title">Golf Without Your Friends</div>
+                <div class="content-image"><img src="images/project1.PNG"></div>
+                
+            </div>
+
+
+        </div>
+        <div class="column">
+            <div class="content">
+                <div class="content-title">The Adventures Of Cuby</div>
+                <div class="content-image"><img src="images/project2.PNG"></div>
+                
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+            <div class="column">
+                <div class="content">
+                    <div class="content-title">Golf Without Your Friends</div>
+                    <div class="content-image"><img src="images/project1.PNG"></div>
+                    
+                </div>
+    
+    
+            </div>
+            <div class="column">
+                <div class="content">
+                    <div class="content-title">The Adventures Of Cuby</div>
+                    <div class="content-image"><img src="images/project2.PNG"></div>
+                    
+    
+                </div>
+            </div>
+        </div>
+
+
+</body>
+
+</html>
+
+<script>
+
+    $(function(){
+
+        $(".content-image").hover(function(){
+
+            $(this).addClass('transition');
+        }, function(){
+            $(this).removeClass('transition');
+        });
+
+    });
+
+</script>

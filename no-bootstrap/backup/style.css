@@ -1,0 +1,102 @@
+
+body{
+    background-color: #FBEEC1;
+}
+
+.top-header
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    padding-top: 150px;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 48px;
+    color: black;
+    background-color: white;
+    /* background-image: url(images/headerimage.PNG); */
+}
+
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a 
+{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: "Archivo Black", sans-serif;
+    font-size:  20px;
+}
+.main-nav li a:hover{
+    background-color: grey;
+}
+.projects-heading
+{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-family: "Archivo Black", sans-serif;
+    font-size:  40px;
+    background-color:white;
+
+    padding-left: 100px;
+    color:black;
+}
+
+
+
+.projects-main
+{
+    margin-top: 0px;
+    column-count: 2;
+    column-rule: 1px solid black;
+    column-gap: 100px;
+    column-width: auto;
+
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 100px;
+    
+    background-color: white;
+}
+
+.projects-title
+{
+    font-family: "Archivo Black", sans-serif;
+    font-size:  30px;
+    padding-bottom: 40px;
+    color: black;
+    
+}
+
+.projects-image img
+{
+    width: 70%;
+    padding-left: 15%;
+    padding-bottom: 5%;
+}
+
+.projects-description
+{
+    font-family: "Archivo Black", sans-serif;
+    font-size:  20px;
+    color: black;
+}
